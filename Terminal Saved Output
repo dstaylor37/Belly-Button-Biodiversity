@@ -1,0 +1,355 @@
+Last login: Sun May 26 20:28:57 on ttys000
+(base) Daniels-MacBook-Air:~ danieltaylor$ cd desktop
+(base) Daniels-MacBook-Air:desktop danieltaylor$ pwd
+/Users/danieltaylor/desktop
+(base) Daniels-MacBook-Air:desktop danieltaylor$ ls
+Belly-Button-Diversity	NUCHI201902DATA1	dstaylor37.github.io
+ELCA			PREWORK_DST
+Jobs			dstaylor37
+(base) Daniels-MacBook-Air:desktop danieltaylor$ git clone https://github.com/dstaylor37/Belly-Button-Biodiversity.git
+Cloning into 'Belly-Button-Biodiversity'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+(base) Daniels-MacBook-Air:desktop danieltaylor$ cd /Users/danieltaylor/Desktop/Belly-Button-Biodiversity 
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ git init
+Reinitialized existing Git repository in /Users/danieltaylor/Desktop/Belly-Button-Biodiversity/.git/
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ git add .
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ git commit -m "first commit
+> git commit -m "first commit"
+> git remote add origin https://github.com/dstaylor37/Belly-Button-Biodiversity.git
+> git remote -v
+> git push -u origin master
+> 
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ 
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ 
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ 
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ cd /Users/danieltaylor/Desktop/Belly-Button-Biodiversity 
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ git init
+Reinitialized existing Git repository in /Users/danieltaylor/Desktop/Belly-Button-Biodiversity/.git/
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ git add .
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ git commit -m "First commit"
+[master ad20cc8] First commit
+ Committer: dstaylor <danieltaylor@Daniels-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 24 files changed, 1296 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 Bully-Button-Diversity_TerminalOutput
+ create mode 100644 Procfile
+ create mode 100644 Screen Shot 2019-05-26 at 12.29.37 PM.png
+ create mode 100644 __init__.py
+ create mode 100644 __pycache__/__init__.cpython-36.pyc
+ create mode 100644 __pycache__/app.cpython-36.pyc
+ create mode 100644 app.py
+ create mode 100644 db/belly_button_biodiversity.sqlite
+ create mode 100644 db/belly_button_metadata.csv
+ create mode 100644 db/bellybutton.sqlite
+ create mode 100644 index.html
+ create mode 100644 initdb.py
+ create mode 100644 requirements.txt
+ create mode 100644 run.sh
+ create mode 100644 runtime.txt
+ create mode 100644 static/.DS_Store
+ create mode 100644 static/app.js
+ create mode 100644 static/js/.DS_Store
+ create mode 100644 static/js/app.js
+ create mode 100644 static/js/{{ url_for('static', filename='app.js') }}
+ create mode 100644 static/{{ url_for('static', filename='app.js') }}
+ create mode 100644 templates/.DS_Store
+ create mode 100644 templates/index.html
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ git remote add origin https://github.com/dstaylor37/Belly-Button-Biodiversity.git
+fatal: remote origin already exists.
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ git remote -v
+origin	https://github.com/dstaylor37/Belly-Button-Biodiversity.git (fetch)
+origin	https://github.com/dstaylor37/Belly-Button-Biodiversity.git (push)
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ git push -u origin master
+Counting objects: 28, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (28/28), 195.54 KiB | 3.31 MiB/s, done.
+Total 28 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/dstaylor37/Belly-Button-Biodiversity.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ conda create -n Belly-Button-Biodiversity_env
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /Users/danieltaylor/anaconda3/envs/Belly-Button-Biodiversity_env
+
+
+
+Proceed ([y]/n)? n
+
+
+CondaSystemExit: Exiting.
+
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ conda create -n Belly-Button-Biodiversity_env python=3.6
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /Users/danieltaylor/anaconda3/envs/Belly-Button-Biodiversity_env
+
+  added / updated specs:
+    - python=3.6
+
+
+The following NEW packages will be INSTALLED:
+
+  ca-certificates    pkgs/main/osx-64::ca-certificates-2019.1.23-0
+  certifi            pkgs/main/osx-64::certifi-2019.3.9-py36_0
+  libcxx             pkgs/main/osx-64::libcxx-4.0.1-hcfea43d_1
+  libcxxabi          pkgs/main/osx-64::libcxxabi-4.0.1-hcfea43d_1
+  libedit            pkgs/main/osx-64::libedit-3.1.20181209-hb402a30_0
+  libffi             pkgs/main/osx-64::libffi-3.2.1-h475c297_4
+  ncurses            pkgs/main/osx-64::ncurses-6.1-h0a44026_1
+  openssl            pkgs/main/osx-64::openssl-1.1.1b-h1de35cc_1
+  pip                pkgs/main/osx-64::pip-19.1.1-py36_0
+  python             pkgs/main/osx-64::python-3.6.8-haf84260_0
+  readline           pkgs/main/osx-64::readline-7.0-h1de35cc_5
+  setuptools         pkgs/main/osx-64::setuptools-41.0.1-py36_0
+  sqlite             pkgs/main/osx-64::sqlite-3.28.0-ha441bb4_0
+  tk                 pkgs/main/osx-64::tk-8.6.8-ha441bb4_0
+  wheel              pkgs/main/osx-64::wheel-0.33.4-py36_0
+  xz                 pkgs/main/osx-64::xz-5.2.4-h1de35cc_4
+  zlib               pkgs/main/osx-64::zlib-1.2.11-h1de35cc_3
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate Belly-Button-Biodiversity_env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ source activate Belly-Button-Biodiversity_env
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ pip install gunicorn
+Collecting gunicorn
+  Using cached https://files.pythonhosted.org/packages/8c/da/b8dd8deb741bff556db53902d4706774c8e1e67265f69528c14c003644e6/gunicorn-19.9.0-py2.py3-none-any.whl
+Installing collected packages: gunicorn
+Successfully installed gunicorn-19.9.0
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ pip install psycopg2
+Collecting psycopg2
+Installing collected packages: psycopg2
+Successfully installed psycopg2-2.8.2
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ pip install flask
+Collecting flask
+  Using cached https://files.pythonhosted.org/packages/9a/74/670ae9737d14114753b8c8fdf2e8bd212a05d3b361ab15b44937dfd40985/Flask-1.0.3-py2.py3-none-any.whl
+Collecting itsdangerous>=0.24 (from flask)
+  Using cached https://files.pythonhosted.org/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl
+Collecting click>=5.1 (from flask)
+  Using cached https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl
+Collecting Jinja2>=2.10 (from flask)
+  Using cached https://files.pythonhosted.org/packages/1d/e7/fd8b501e7a6dfe492a433deb7b9d833d39ca74916fa8bc63dd1a4947a671/Jinja2-2.10.1-py2.py3-none-any.whl
+Collecting Werkzeug>=0.14 (from flask)
+  Using cached https://files.pythonhosted.org/packages/9f/57/92a497e38161ce40606c27a86759c6b92dd34fcdb33f64171ec559257c02/Werkzeug-0.15.4-py2.py3-none-any.whl
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.10->flask)
+  Using cached https://files.pythonhosted.org/packages/f0/00/a6aea33f5598b080b86d6b6d1214b51afe3ffa6100b902d5aa465080083f/MarkupSafe-1.1.1-cp36-cp36m-macosx_10_6_intel.whl
+Installing collected packages: itsdangerous, click, MarkupSafe, Jinja2, Werkzeug, flask
+Successfully installed Jinja2-2.10.1 MarkupSafe-1.1.1 Werkzeug-0.15.4 click-7.0 flask-1.0.3 itsdangerous-1.1.0
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ pip install flask-sqlalchemy
+Collecting flask-sqlalchemy
+  Using cached https://files.pythonhosted.org/packages/08/ca/582442cad71504a1514a2f053006c8bb128844133d6076a4df17117545fa/Flask_SQLAlchemy-2.4.0-py2.py3-none-any.whl
+Requirement already satisfied: Flask>=0.10 in /Users/danieltaylor/anaconda3/envs/Belly-Button-Biodiversity_env/lib/python3.6/site-packages (from flask-sqlalchemy) (1.0.3)
+Collecting SQLAlchemy>=0.8.0 (from flask-sqlalchemy)
+Requirement already satisfied: itsdangerous>=0.24 in /Users/danieltaylor/anaconda3/envs/Belly-Button-Biodiversity_env/lib/python3.6/site-packages (from Flask>=0.10->flask-sqlalchemy) (1.1.0)
+Requirement already satisfied: click>=5.1 in /Users/danieltaylor/anaconda3/envs/Belly-Button-Biodiversity_env/lib/python3.6/site-packages (from Flask>=0.10->flask-sqlalchemy) (7.0)
+Requirement already satisfied: Werkzeug>=0.14 in /Users/danieltaylor/anaconda3/envs/Belly-Button-Biodiversity_env/lib/python3.6/site-packages (from Flask>=0.10->flask-sqlalchemy) (0.15.4)
+Requirement already satisfied: Jinja2>=2.10 in /Users/danieltaylor/anaconda3/envs/Belly-Button-Biodiversity_env/lib/python3.6/site-packages (from Flask>=0.10->flask-sqlalchemy) (2.10.1)
+Requirement already satisfied: MarkupSafe>=0.23 in /Users/danieltaylor/anaconda3/envs/Belly-Button-Biodiversity_env/lib/python3.6/site-packages (from Jinja2>=2.10->Flask>=0.10->flask-sqlalchemy) (1.1.1)
+Installing collected packages: SQLAlchemy, flask-sqlalchemy
+Successfully installed SQLAlchemy-1.3.3 flask-sqlalchemy-2.4.0
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ pip install pandas
+Collecting pandas
+  Using cached https://files.pythonhosted.org/packages/2a/67/0a59cb257c72bb837575ca0ddf5f0fe2a482e98209b7a1bed8cde68ddb46/pandas-0.24.2-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl
+Collecting pytz>=2011k (from pandas)
+  Using cached https://files.pythonhosted.org/packages/3d/73/fe30c2daaaa0713420d0382b16fbb761409f532c56bdcc514bf7b6262bb6/pytz-2019.1-py2.py3-none-any.whl
+Collecting numpy>=1.12.0 (from pandas)
+  Using cached https://files.pythonhosted.org/packages/ae/76/4a4c012bca5688881c18f6e04694d221b88daa5d38526a4df87d75711199/numpy-1.16.3-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl
+Collecting python-dateutil>=2.5.0 (from pandas)
+  Using cached https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl
+Collecting six>=1.5 (from python-dateutil>=2.5.0->pandas)
+  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Installing collected packages: pytz, numpy, six, python-dateutil, pandas
+Successfully installed numpy-1.16.3 pandas-0.24.2 python-dateutil-2.8.0 pytz-2019.1 six-1.12.0
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ python initdb.py
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ FLASK_APP=/Users/danieltaylor/Desktop/Belly-Button-Biodiversity/app.py flask run
+ * Serving Flask app "/Users/danieltaylor/Desktop/Belly-Button-Biodiversity/app.py"
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+/Users/danieltaylor/anaconda3/envs/Belly-Button-Biodiversity_env/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [26/May/2019 20:56:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/May/2019 20:56:04] "GET /static/js/app.js HTTP/1.1" 304 -
+127.0.0.1 - - [26/May/2019 20:56:04] "GET /favicon.ico HTTP/1.1" 404 -
+^C(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity nieltaylor$ pip freeze > requirements.txt
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ touch Procfile
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ brew tap heroku/brew && brew install heroku
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> Updated Formulae
+allure       exploitdb    hlint        opencascade  rom-tools    supervisor
+checkstyle   faas-cli     mame         pmd          sshtrix      topgrade
+dhall-json   goreleaser   mutt         prometheus   sslh         xmake
+
+Warning: heroku/brew/heroku 7.24.4 is already installed, it's just not linked
+You can use `brew link heroku` to link this version.
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ brew link heroku
+Linking /usr/local/Cellar/heroku/7.24.4... 
+Error: Could not symlink bin/heroku
+Target /usr/local/bin/heroku
+already exists. You may want to remove it:
+  rm '/usr/local/bin/heroku'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite heroku
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run heroku
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ brew link --overwrite heroku
+Linking /usr/local/Cellar/heroku/7.24.4... 3 symlinks created
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ heroku login
+heroku: Press any key to open up the browser to login or q to exit: 
+Opening browser to https://cli-auth.heroku.com/auth/browser/45bc3cbd-ff59-423d-ac17-1f3d5aa0a56f
+Logging in... done
+Logged in as dann.taylor@outlook.com
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ heroku create
+Creating app... done, ⬢ vast-fjord-62608
+https://vast-fjord-62608.herokuapp.com/ | https://git.heroku.com/vast-fjord-62608.git
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ heroku run initdb.py
+Running initdb.py on ⬢ vast-fjord-62608... up, run.1633 (Free)
+bash: initdb.py: command not found
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ sudo su - postgres
+Password:
+Sorry, try again.
+Password:
+su: unknown login: postgres
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ heroku run initdb.py
+Running initdb.py on ⬢ vast-fjord-62608... up, run.6714 (Free)
+bash: initdb.py: command not found
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ sudo su - postgres
+su: unknown login: postgres
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ sudo su - postgres
+su: unknown login: postgres
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ /usr/lib/postgresql/x.y/bin/
+-bash: /usr/lib/postgresql/x.y/bin/: No such file or directory
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ cd danieltaylor/lib/postgresql/x.y/bin/
+-bash: cd: danieltaylor/lib/postgresql/x.y/bin/: No such file or directory
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ git init
+Reinitialized existing Git repository in /Users/danieltaylor/Desktop/Belly-Button-Biodiversity/.git/
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ heroku git:remote -a vast-fjord-62608
+set git remote heroku to https://git.heroku.com/vast-fjord-62608.git
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ git add .
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ git commit -am "make it better"
+[master 1a45d62] make it better
+ Committer: dstaylor <danieltaylor@Daniels-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 17 insertions(+), 16 deletions(-)
+ create mode 100644 Screen Shot 2019-05-26 at 8.56.17 PM.png
+ rewrite __pycache__/__init__.cpython-36.pyc (99%)
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ git push heroku master
+Counting objects: 36, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (32/32), done.
+Writing objects: 100% (36/36), 263.75 KiB | 3.88 MiB/s, done.
+Total 36 (delta 6), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Python app detected
+remote:  !     Python has released a security update! Please consider upgrading to python-3.6.8
+remote:        Learn More: https://devcenter.heroku.com/articles/python-runtime
+remote: -----> Installing python-3.6.2
+remote: -----> Installing pip
+remote: -----> Installing SQLite3
+remote: -----> Installing requirements with pip
+remote:        Collecting certifi==2019.3.9 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 1))
+remote:          Downloading https://files.pythonhosted.org/packages/60/75/f692a584e85b7eaba0e03827b3d51f45f571c2e793dd731e598828d380aa/certifi-2019.3.9-py2.py3-none-any.whl (158kB)
+remote:        Collecting Click==7.0 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 2))
+remote:          Downloading https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl (81kB)
+remote:        Collecting Flask==1.0.3 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 3))
+remote:          Downloading https://files.pythonhosted.org/packages/9a/74/670ae9737d14114753b8c8fdf2e8bd212a05d3b361ab15b44937dfd40985/Flask-1.0.3-py2.py3-none-any.whl (92kB)
+remote:        Collecting Flask-SQLAlchemy==2.4.0 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 4))
+remote:          Downloading https://files.pythonhosted.org/packages/08/ca/582442cad71504a1514a2f053006c8bb128844133d6076a4df17117545fa/Flask_SQLAlchemy-2.4.0-py2.py3-none-any.whl
+remote:        Collecting gunicorn==19.9.0 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 5))
+remote:          Downloading https://files.pythonhosted.org/packages/8c/da/b8dd8deb741bff556db53902d4706774c8e1e67265f69528c14c003644e6/gunicorn-19.9.0-py2.py3-none-any.whl (112kB)
+remote:        Collecting itsdangerous==1.1.0 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 6))
+remote:          Downloading https://files.pythonhosted.org/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl
+remote:        Collecting Jinja2==2.10.1 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 7))
+remote:          Downloading https://files.pythonhosted.org/packages/1d/e7/fd8b501e7a6dfe492a433deb7b9d833d39ca74916fa8bc63dd1a4947a671/Jinja2-2.10.1-py2.py3-none-any.whl (124kB)
+remote:        Collecting MarkupSafe==1.1.1 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 8))
+remote:          Downloading https://files.pythonhosted.org/packages/b2/5f/23e0023be6bb885d00ffbefad2942bc51a620328ee910f64abe5a8d18dd1/MarkupSafe-1.1.1-cp36-cp36m-manylinux1_x86_64.whl
+remote:        Collecting numpy==1.16.3 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 9))
+remote:          Downloading https://files.pythonhosted.org/packages/c1/e2/4db8df8f6cddc98e7d7c537245ef2f4e41a1ed17bf0c3177ab3cc6beac7f/numpy-1.16.3-cp36-cp36m-manylinux1_x86_64.whl (17.3MB)
+remote:        Collecting pandas==0.24.2 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 10))
+remote:          Downloading https://files.pythonhosted.org/packages/19/74/e50234bc82c553fecdbd566d8650801e3fe2d6d8c8d940638e3d8a7c5522/pandas-0.24.2-cp36-cp36m-manylinux1_x86_64.whl (10.1MB)
+remote:        Collecting psycopg2==2.8.2 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 11))
+remote:          Downloading https://files.pythonhosted.org/packages/23/7e/93c325482c328619870b6cd09370f6dbe1148283daca65115cd63642e60f/psycopg2-2.8.2.tar.gz (368kB)
+remote:        Collecting python-dateutil==2.8.0 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 12))
+remote:          Downloading https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226kB)
+remote:        Collecting pytz==2019.1 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 13))
+remote:          Downloading https://files.pythonhosted.org/packages/3d/73/fe30c2daaaa0713420d0382b16fbb761409f532c56bdcc514bf7b6262bb6/pytz-2019.1-py2.py3-none-any.whl (510kB)
+remote:        Collecting six==1.12.0 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 14))
+remote:          Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+remote:        Collecting SQLAlchemy==1.3.3 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 15))
+remote:          Downloading https://files.pythonhosted.org/packages/2b/b2/e6f5c5efc68942edefaa924e8fbea0b32375baa434a511cbf6bb17769cf6/SQLAlchemy-1.3.3.tar.gz (5.9MB)
+remote:        Collecting Werkzeug==0.15.4 (from -r /tmp/build_cf96f2558e23606d4c5b99d9d2702712/requirements.txt (line 16))
+remote:          Downloading https://files.pythonhosted.org/packages/9f/57/92a497e38161ce40606c27a86759c6b92dd34fcdb33f64171ec559257c02/Werkzeug-0.15.4-py2.py3-none-any.whl (327kB)
+remote:        Installing collected packages: certifi, Click, Werkzeug, MarkupSafe, Jinja2, itsdangerous, Flask, SQLAlchemy, Flask-SQLAlchemy, gunicorn, numpy, six, python-dateutil, pytz, pandas, psycopg2
+remote:          Running setup.py install for SQLAlchemy: started
+remote:            Running setup.py install for SQLAlchemy: finished with status 'done'
+remote:          Running setup.py install for psycopg2: started
+remote:            Running setup.py install for psycopg2: finished with status 'done'
+remote:        Successfully installed Click-7.0 Flask-1.0.3 Flask-SQLAlchemy-2.4.0 Jinja2-2.10.1 MarkupSafe-1.1.1 SQLAlchemy-1.3.3 Werkzeug-0.15.4 certifi-2019.3.9 gunicorn-19.9.0 itsdangerous-1.1.0 numpy-1.16.3 pandas-0.24.2 psycopg2-2.8.2 python-dateutil-2.8.0 pytz-2019.1 six-1.12.0
+remote: 
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote: 
+remote: -----> Compressing...
+remote:        Done: 79.8M
+remote: -----> Launching...
+remote:        Released v5
+remote:        https://vast-fjord-62608.herokuapp.com/ deployed to Heroku
+remote: 
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ heroku run initdb.py
+Running initdb.py on ⬢ vast-fjord-62608... up, run.1783 (Free)
+bash: initdb.py: command not found
+(Belly-Button-Biodiversity_env) Daniels-MacBook-Air:Belly-Button-Biodiversity danieltaylor$ 
